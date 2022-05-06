@@ -18,7 +18,7 @@ public class UserController {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome222";
+		return "welcome333";
 	}
 
 	@GetMapping("/users")
