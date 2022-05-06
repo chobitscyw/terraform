@@ -5,11 +5,11 @@ spring:
     name: terraform
   datasource:
       driverClassName: "com.mysql.cj.jdbc.Driver"
-      url: "jdbc:mysql://127.0.0.1:3306/sys?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true"
+      url: "jdbc:mysql://database-manual-1.cpxgr51bx0ua.us-west-2.rds.amazonaws.com:3306/sys?serverTimezone=GMT&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true"
       username: "admin"
-      password: "admin"
+      password: "foobarbaz"
   redis:
-    host: 127.0.0.2
+    host: manual-redis-1.dulzwb.ng.0001.usw2.cache.amazonaws.com
     password:
     port: 6379
 #    redisson:
